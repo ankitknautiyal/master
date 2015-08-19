@@ -15,6 +15,7 @@ class Board{
 	int setBoardValue(int i, int j , int val);
 	int getBoardValue(int i, int j);
 	bool isBoardFull();
+	void printBoard();
 };
 #endif
 
