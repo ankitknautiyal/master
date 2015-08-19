@@ -1,4 +1,6 @@
-#include<board.h>
+#include"board.h"
+#include<iostream>
+using namespace std;
 bool Board::isBoardFull(){
 	for(int i=0;i<3;i++)
 		for(int j=0;j<3;j++)
@@ -15,5 +17,9 @@ int Board::setBoardValue(int i, int j, int val){
 	board[i][j] = val;
 }
 
-
+int main()
+{
+	cout<<"Hello-World\n";
+	return 0;
+}
 

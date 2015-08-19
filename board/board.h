@@ -1,6 +1,7 @@
-#include<iostream.h>
+#ifndef BOARD_H
+#define BOARD_H
 #define X 1
-#defne O 2
+#define O 2
 class Board{
 	private : 
 	int board[3][3];
@@ -15,6 +16,6 @@ class Board{
 	int getBoardValue(int i, int j);
 	bool isBoardFull();
 };
-
+#endif
 
 
